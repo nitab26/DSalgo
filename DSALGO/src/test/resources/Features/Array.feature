@@ -11,7 +11,7 @@ Feature: login and register
     And click on the signout button
     Then signin again
     
-    Scenario Outline: Sucessfull login with the valid team credentials
+  Scenario Outline: Sucessfull login with the valid team credentials
     Given User launch the crome browser
     When user open the URL "https://dsportalapp.herokuapp.com/register"
     And User enter Username as "<username>" and password as "<password>"
