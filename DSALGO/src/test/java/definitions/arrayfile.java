@@ -6,5 +6,8 @@ public class arrayfile {
 		
 	System.out.print(false);
 	}
+	public void feature() {
+		System.out.println("new branch");
+	}
 
 }
